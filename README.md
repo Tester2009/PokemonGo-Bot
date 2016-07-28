@@ -94,6 +94,8 @@ Please keep in mind that master is not always up-to-date whereas 'dev' is. In th
 ```
 $ git clone -b master https://github.com/PokemonGoF/PokemonGo-Bot  
 $ cd PokemonGo-Bot
+$ sudo apt-get -y install virtualenv
+$ sudo apt-get -y install python-pip
 $ virtualenv .
 $ source bin/activate
 $ pip install -r requirements.txt
